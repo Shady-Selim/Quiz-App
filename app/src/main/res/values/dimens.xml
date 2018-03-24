@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_padding">16dp</dimen>
+    <dimen name="main_title">18sp</dimen>
+    <dimen name="quiz_question_size">15sp</dimen>
+</resources>

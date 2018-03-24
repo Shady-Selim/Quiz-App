@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/main_padding"
+    android:paddingRight="@dimen/main_padding"
+    tools:context="com.shady.nanogerdree.quizapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_the_right_answer_s_for_each_question"
+                android:textSize="@dimen/main_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_padding"
+                android:text="Q1 - What is the main language of Egypt?"
+                android:textSize="@dimen/quiz_question_size" />
+
+            <EditText
+                android:id="@+id/egyptLangTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_padding"
+                android:text="Q2 - Egypt is?"
+                android:textSize="@dimen/quiz_question_size" />
+
+            <CheckBox
+                android:id="@+id/arabianCountryCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arabian Country" />
+
+            <CheckBox
+                android:id="@+id/asianCountryCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asian Country" />
+
+            <CheckBox
+                android:id="@+id/africanCountryCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="African Country" />
+
+            <CheckBox
+                android:id="@+id/mediterraneanCountryCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mediterranean Country" />
+
+            <CheckBox
+                android:id="@+id/southEastCountryCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South-East Country" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_padding"
+                android:text="Q3 - What is the name of the Egyptian river?"
+                android:textSize="@dimen/quiz_question_size" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Degla River" />
+
+                <RadioButton
+                    android:id="@+id/egyptRiverRb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="River Nile" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Golan River" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_padding"
+                android:text="Q4 - Which of these relics in Egypt?"
+                android:textSize="@dimen/quiz_question_size" />
+
+            <CheckBox
+                android:id="@+id/pyramidsCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pyramids" />
+
+            <CheckBox
+                android:id="@+id/grandCanyonCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grand Canyon" />
+
+            <CheckBox
+                android:id="@+id/grandWallCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Grand Wall" />
+
+            <CheckBox
+                android:id="@+id/sphinxCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Sphinx" />
+
+            <Button
+                android:id="@+id/checkScoreBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/main_padding"
+                android:text="Check your Score"
+                android:textSize="@dimen/quiz_question_size" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

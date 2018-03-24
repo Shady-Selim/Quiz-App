@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="select_the_right_answer_s_for_each_question">Select the right answer/s for each question</string>
+</resources>
